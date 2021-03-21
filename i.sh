@@ -77,7 +77,7 @@ gen_cert() {
   fi
 
   log "安装 acme.sh 脚本 ..."
-  curl https://raw.githubusercontent.com/Miku-programm/acme.sh/blob/master/acme.shh | INSTALLONLINE=1  sh
+  curl https://rawcdn.githack.com/Miku-programm/acme.sh/c33e5bc40fa89e9f10b9c667428e08c1fbf237ce/acme.sh | INSTALLONLINE=1  sh
 
   local acme=~/.acme.sh/acme.sh
 
