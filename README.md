@@ -28,7 +28,7 @@ curl https://raw.githubusercontent.com/EtherDream/jsproxy/0.1.0/i.sh | bash
 将域名 `example.com` 解析到服务器 IP，然后执行：
 
 ```bash
-curl https://raw.githubusercontent.com/EtherDream/jsproxy/master/i.sh | bash -s example.com
+curl https://rawcdn.githack.com/Miku-programm/jsproxy/ae96b4a480bd00a25fe3db4c6d6d556c503b4c98/i.sh | bash -s example.com
 ```
 
 访问: `https://example.com:8443`
